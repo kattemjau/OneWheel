@@ -26,10 +26,15 @@ basic.forever(function () {
     // serial.writeNumber(y);
 
     //if board tutching ground, turn off
+    // EXTEND RANGE BEFORE TURNING OFF
     if (y < MIN){
-      y=balanced;
+      if(y<MIN-50)
+      {y=balanced;}
+      else{y=1000;}
     }else if( y > MAX) {
-      y = balanced;
+      if(y>MAX+50)
+      {y = balanced;}
+      else{y=2000;}
     }else{
       y = Math.map(y, MAX, MIN, 1000, 2000);
     }
@@ -38,5 +43,5 @@ basic.forever(function () {
     pins.servoSetPulse(AnalogPin.P16, y)
 
     //hm, remove delay?
-    control.waitMicros(100);
+    // control.waitMicros(100);
 })

@@ -6,6 +6,6 @@ https://makecode.microbit.org/#editor
 
 TODO:
 1. start sequence
-2. PID controller
-3. max min auto-config
-4. vesc config
+2. PID controller (DONE IN VESC)
+3. max min auto-config (NEEDS TWEEKING)
+4. vesc config 

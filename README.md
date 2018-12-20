@@ -1,4 +1,9 @@
-# OneWheelMicroBit
+# OneWheel
+Writing code in cpp for Arduino and mpu6050 gyro
+
+
+/* Microbit cannot be used for this project, its to slow + bloated and uses software ppm instead of hardware
+
 MicroBit Implementation of a self balancing device
 
 Use this editor to upload code

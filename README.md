@@ -1,6 +1,8 @@
 # OneWheel
 Writing code in cpp for Arduino and mpu6050 gyro
 
+Based on the project
+https://www.instructables.com/id/Balance-Bot-ArduinoUnompu6050l298n/
 
 /* Microbit cannot be used for this project, its to slow + bloated and uses software ppm instead of hardware
 
